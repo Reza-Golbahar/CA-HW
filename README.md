@@ -1,60 +1,58 @@
 # Computer Architecture Practical — CA-Practical-4042
 
-This repository contains the solutions and circuit designs developed for the **Computer Architecture Practical** course.
+This repository contains the circuit designs and implementations developed for the **Computer Architecture Practical** course.
 
-The exercises were implemented primarily using **Logisim Evolution** and cover a progression from fundamental digital circuits to processor architecture and pipelining.
+The exercises were primarily implemented using **Logisim Evolution** and cover a progression from fundamental digital circuits to processor architecture and pipelining.
 
 ---
 
 ## 🧩 Exercises
 
-The project consists of **7 practical exercises**, gradually increasing in complexity and building upon concepts introduced in previous assignments.
+The repository contains **7 practical exercises**, progressively introducing and combining fundamental concepts of computer architecture.
 
 ### HW1 — Introduction to Logisim Evolution
 
-The first exercise served as an introduction to the **Logisim Evolution** environment and fundamental digital circuit design.
+An introductory exercise focused on **Logisim Evolution** and fundamental digital circuit design.
 
-A basic **32-bit Adder/Subtractor** was implemented as the first step toward working with more complex hardware components.
+A **32-bit Adder/Subtractor** was implemented as an introduction to designing and working with digital circuits.
 
 ---
 
 ### HW2 — Multiplier & Divider
 
-The second exercise focused on designing hardware for **multiplication and division**.
+This exercise focused on hardware implementation of **multiplication and division**.
 
-The multiplier was implemented using **Booth's multiplication algorithm**, providing practical experience with sequential arithmetic operations and hardware multiplication.
+The multiplier was designed using **Booth's multiplication algorithm**, providing practical experience with sequential arithmetic circuits and hardware multiplication.
 
 ---
 
 ### HW3 — ALU
 
-The third exercise involved designing a **32-bit Arithmetic Logic Unit (ALU)**.
+A **32-bit Arithmetic Logic Unit (ALU)** supporting **13 different operations** was designed.
 
-The ALU supports **13 different operations**, providing the core arithmetic and logical functionality required by the processor developed in later exercises.
+The ALU provides the arithmetic and logical operations required by the processor architectures developed in the later exercises.
 
 ---
 
 ### HW4 — Memory & Register File
 
-The fourth exercise focused on the memory components required for processor design.
+This exercise focused on designing the fundamental memory components required for a processor.
 
-The main components included:
+It included:
 
 * Memory
 * Register File
 * A **32-register register file**
 
-These components formed important building blocks for the processor assignments that followed.
+These components were later used as part of the processor designs.
 
 ---
 
 ### HW5 — Single-Cycle MIPS Processor
 
-The fifth exercise involved designing a **single-cycle MIPS processor**.
+A **single-cycle MIPS processor** was designed by integrating the components developed in the previous exercises.
 
-The processor was capable of executing MIPS instructions, with a **Fibonacci program** used to test its functionality.
-
-This exercise brought together several components developed in the previous assignments into a complete single-cycle processor.
+The processor was tested by running a **Fibonacci program** on the implemented architecture.
 
 ---
 
@@ -62,7 +60,7 @@ This exercise brought together several components developed in the previous assi
 
 The single-cycle processor was extended into a **multi-cycle MIPS processor**.
 
-Instruction execution was divided across multiple clock cycles, allowing hardware components to be reused across different stages of instruction execution.
+Instruction execution was divided across multiple clock cycles, allowing hardware resources to be reused between different stages of execution.
 
 ---
 
@@ -70,7 +68,7 @@ Instruction execution was divided across multiple clock cycles, allowing hardwar
 
 The multi-cycle MIPS processor was further extended into a **pipelined MIPS processor**.
 
-This exercise focused on the principles of **instruction pipelining** and organizing processor execution into multiple pipeline stages.
+This exercise focused on **instruction pipelining** and organizing processor execution into multiple pipeline stages.
 
 ---
 
@@ -84,8 +82,8 @@ This exercise focused on the principles of **instruction pipelining** and organi
 
 ## 📚 Topics Covered
 
-The exercises follow a progression through several fundamental areas of computer architecture:
+The exercises cover a progression of core computer architecture concepts:
 
 **Digital Logic → Arithmetic Units → ALU → Memory & Register File → Single-Cycle MIPS → Multi-Cycle MIPS → Pipelined MIPS**
 
-The project demonstrates the gradual development of computer architecture components, starting from basic digital circuits and progressing toward a pipelined MIPS processor.
+Overall, the project demonstrates the gradual development of computer architecture components, progressing from basic digital circuits to a pipelined MIPS processor.
